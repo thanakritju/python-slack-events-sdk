@@ -1,6 +1,11 @@
 ## Python Slack Events SDK
 Create a slack sdk for learning purpose.
 
+## How to use 
+`pip install slacksdk` 
+
+And follow `example/slash_app.py`
+
 ## Learning Objectives
 - Python 
     - Object Oriented Programming.
