@@ -25,6 +25,6 @@ Join this group and have fun!
 response = requests.post(
     "https://slack.com/api/chat.postMessage",
     json = message_payload,
-    headers = {"Authorization": f"Bearer {SLACK_APP_TOKEN}"}
+    headers = {"Authorization": f"Bearer {BOT_USER_OAUTH_ACCESS_TOKEN}"}
     )
 print(response.json())
